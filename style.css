@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    overflow: hidden;
+}
+.container{
+    border-radius: 12px;
+    max-width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border: none;
+}
+
+#display{
+    height: 80px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    padding-left: 5px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.buttons{
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+button{
+    border-radius: 50px;
+    height: 55px;
+    width: 55px;
+    font-size: 26px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 45%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 55%);
+}
+
+.operator{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+
+.operator:active{
+    background-color: hsl(35, 100%, 75%);
+}
+
+.equal{
+    background-color: rgb(3, 141, 175); 
+}
+.equal:hover{
+    background-color: rgb(2, 161, 200);
+}
+
+.equal:active{
+    background-color: rgb(4, 170, 211);
+}
